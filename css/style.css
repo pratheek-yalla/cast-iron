@@ -12,6 +12,14 @@ body {
 .header {
   margin-left: 15%;
 }
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+.header ul li:before {
+  content: "\1F449";
+  margin: 0 1em;
+}
 .header a {
   text-decoration: none;
   color: #337ab7;
@@ -71,9 +79,9 @@ h1 {
   height: auto;
   position: fixed;
   bottom: 0;
-  list-style-type: none;
 }
-.footer p {
+.footer p,
+.footer ul {
   padding: 5px;
   margin: 0;
 }
