@@ -72,6 +72,16 @@ h1 {
   text-align: left;
   list-style-type: none;
 }
+.body h3 {
+  margin: 0;
+}
+.body img {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
 .footer {
   text-align: center;
   background: #dce5ec;
@@ -86,10 +96,13 @@ h1 {
   margin: 0;
 }
 .simulator {
+  display: block;
   height: 60%;
   width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #000;
-  margin-left: 10%;
+  border-radius: 5px;
 }
 ::-webkit-scrollbar {
   width: 0px;
