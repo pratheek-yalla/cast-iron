@@ -80,9 +80,16 @@ h1 {
 .body h3 {
   margin: 0;
 }
-.body img {
+.image {
   display: block;
   width: 40%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.images {
+  display: block;
+  width: 20%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
