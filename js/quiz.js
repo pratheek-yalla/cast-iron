@@ -122,4 +122,47 @@ function showCorrectOption() {
     for(let i=1; i<=5; i++) {
         document.getElementById("show" + i).style.display = "block";
     }
+    document.getElementById("result").style.display = "block";
+}
+
+let marks = 0;
+function question1(selected) {
+    var select = selected;
+    var choosen = displayQuestions[0].correctOption;
+    if(select === choosen) {
+        marks = marks + 1;
+    }
+    document.getElementById("score").innerHTML = marks;
+}
+function question2(selected) {
+    var select = selected;
+    var choosen = displayQuestions[1].correctOption;
+    if(select === choosen) {
+        marks = marks + 1;
+    }
+    document.getElementById("score").innerHTML = marks;
+}
+function question3(selected) {
+    var select = selected;
+    var choosen = displayQuestions[2].correctOption;
+    if(select === choosen) {
+        marks = marks + 1;
+    }
+    document.getElementById("score").innerHTML = marks;
+}
+function question4(selected) {
+    var select = selected;
+    var choosen = displayQuestions[3].correctOption;
+    if(select === choosen) {
+        marks = marks + 1;
+    }
+    document.getElementById("score").innerHTML = marks;
+}
+function question5(selected) {
+    var select = selected;
+    var choosen = displayQuestions[4].correctOption;
+    if(select === choosen) {
+        marks = marks + 1;
+    }
+    document.getElementById("score").innerHTML = marks;
 }
