@@ -98,7 +98,6 @@ const questions = [
 ]
 
 let displayQuestions = []
-
 while(displayQuestions.length<=4) {
     const random = questions[Math.floor(Math.random() * questions.length)]
     if(!displayQuestions.includes(random))
@@ -108,12 +107,20 @@ while(displayQuestions.length<=4) {
 }
 
 let index = 1;
-for(let i=0; i<5; i++) {
+for(let i=0; i<displayQuestions.length; i++) {
     document.getElementById("number" + index).innerHTML = index;
     document.getElementById("question" + index).innerHTML = displayQuestions[i].question;
     document.getElementById("displayA" + index).innerHTML = displayQuestions[i].optionA;
     document.getElementById("displayB" + index).innerHTML = displayQuestions[i].optionB;
     document.getElementById("displayC" + index).innerHTML = displayQuestions[i].optionC;
     document.getElementById("displayD" + index).innerHTML = displayQuestions[i].optionD;
+    document.getElementById("correctAnswer" + index).innerHTML = displayQuestions[i].correctOption;
     index++;
+}
+
+function showCorrectOption() {
+    for(let i=1; i<=5; i++) {
+        document.getElementById("show" + i).style.display = "block";
+    }
+    //document.getElementById("result").style.display = "block";
 }
