@@ -79,20 +79,6 @@ h1 {
 .body h3 {
   margin: 0;
 }
-.image {
-  display: block;
-  width: 40%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-.images {
-  display: block;
-  width: 20%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
 .footer {
   text-align: center;
   background: #dce5ec;
