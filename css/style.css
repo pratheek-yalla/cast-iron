@@ -162,10 +162,10 @@ h1 {
   background-color: #036593;
   text-align: center;
   width: 50px;
-  border: none;
+  border: 2px #fff solid;
   color: #fff;
   padding: 5px;
-  margin-left: 10%;
+  float: left;
 }
 .submit:hover {
   opacity: 0.8;
