@@ -17,7 +17,7 @@
             <p class="next" style="float: right;" onclick="zoomin()">200x</p>
         </div>
         <div class="observe">
-            <img id="image" src="./images/image2.jpg" width="100%">
+            <img id="image" src="" width="100%">
         </div><br>
         <select name="microstructure" id="microstructure">
             <option selected disabled hidden>What is the microstructure shown?</option>
@@ -28,7 +28,8 @@
             <option value="5">Compacted Graphite Iron</option>
         </select>
         <p id="answer"></p>
-        <p class="next" onclick="checkAnswer()">Check</p>
+        <p id="check" class="next" onclick="checkAnswer()">Check</p>
+        <p id="print" class="next" onclick="printImage()">Print image for analysis</p>
     </div>
     <script src="./js/script.js"></script>
 </body>

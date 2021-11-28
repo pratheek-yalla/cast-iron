@@ -162,7 +162,8 @@ h1 {
 #show4,
 #show5,
 #result,
-#next {
+#next,
+#print {
   display: none;
 }
 .observe {
