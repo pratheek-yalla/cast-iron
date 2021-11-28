@@ -161,6 +161,7 @@ h1 {
 #show3,
 #show4,
 #show5,
-#result {
+#result,
+#next {
   display: none;
 }

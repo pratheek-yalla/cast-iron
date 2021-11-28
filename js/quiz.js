@@ -122,5 +122,4 @@ function showCorrectOption() {
     for(let i=1; i<=5; i++) {
         document.getElementById("show" + i).style.display = "block";
     }
-    //document.getElementById("result").style.display = "block";
 }
