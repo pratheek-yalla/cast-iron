@@ -150,3 +150,11 @@ h1 {
   bottom: 0;
   right: 20%;
 }
+.quesbox {
+  display: block;
+  margin-left: 10%;
+}
+.quesbox h4 {
+  margin: 0;
+  padding: 0;
+}
